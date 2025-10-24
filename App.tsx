@@ -8,6 +8,8 @@ import MembershipSection from './components/MembershipSection';
 import TrainersSection from './components/TrainersSection';
 import TestimonialsSection from './components/TestimonialsSection';
 import Footer from './components/Footer';
+import Chatbot from './components/Chatbot';
+import AboutSection from './components/AboutSection';
 
 const App: React.FC = () => {
 
@@ -40,8 +42,10 @@ const App: React.FC = () => {
                 <TestimonialsSection />
                 <MembershipSection />
                 <TrainersSection />
+                <AboutSection />
             </main>
             <Footer />
+            <Chatbot />
         </div>
     );
 };

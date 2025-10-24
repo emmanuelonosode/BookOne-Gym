@@ -3,7 +3,7 @@ import React from 'react';
 
 const Footer: React.FC = () => {
     return (
-        <footer className="bg-gray-900 border-t border-gray-800 text-gray-400">
+        <footer id="contact" className="bg-gray-900 border-t border-gray-800 text-gray-400">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                     <div className="md:col-span-1">
@@ -22,25 +22,25 @@ const Footer: React.FC = () => {
                             <li><a href="#classes" className="hover:text-white transition-colors">Classes</a></li>
                             <li><a href="#memberships" className="hover:text-white transition-colors">Memberships</a></li>
                             <li><a href="#trainers" className="hover:text-white transition-colors">Trainers</a></li>
-                            <li><a href="#" className="hover:text-white transition-colors">Blog</a></li>
+                            <li><a href="#" title="Coming Soon!" className="hover:text-white transition-colors cursor-not-allowed opacity-50">Blog</a></li>
                         </ul>
                     </div>
                      <div>
                         <h3 className="font-bold text-white uppercase tracking-wider">Company</h3>
                         <ul className="mt-4 space-y-2 text-sm">
-                            <li><a href="#" className="hover:text-white transition-colors">About Us</a></li>
+                            <li><a href="#about" className="hover:text-white transition-colors">About Us</a></li>
                             <li><a href="#" className="hover:text-white transition-colors">Careers</a></li>
-                            <li><a href="#" className="hover:text-white transition-colors">Contact</a></li>
+                            <li><a href="#contact" className="hover:text-white transition-colors">Contact</a></li>
                             <li><a href="#" className="hover:text-white transition-colors">Privacy Policy</a></li>
                         </ul>
                     </div>
                     <div>
-                        <h3 className="font-bold text-white uppercase tracking-wider">Newsletter</h3>
-                        <p className="mt-4 text-sm">Get exclusive workouts, nutrition tips, and special offers.</p>
-                        <form className="mt-4 flex">
-                            <input type="email" placeholder="Your email" className="w-full bg-gray-800 border border-gray-700 rounded-l-md px-4 py-2 text-sm focus:outline-none focus:border-cyan-500" />
-                            <button type="submit" className="bg-cyan-500 text-black font-bold px-4 py-2 rounded-r-md hover:bg-cyan-400 transition-colors">Go</button>
-                        </form>
+                        <h3 className="font-bold text-white uppercase tracking-wider">Get In Touch</h3>
+                         <ul className="mt-4 space-y-2 text-sm">
+                            <li>123 Fitness Ave, Metro City, 10101</li>
+                            <li><a href="mailto:contact@elitegym.com" className="hover:text-white transition-colors">contact@elitegym.com</a></li>
+                            <li><a href="tel:+1234567890" className="hover:text-white transition-colors">(123) 456-7890</a></li>
+                        </ul>
                     </div>
                 </div>
                 <div className="mt-16 pt-8 border-t border-gray-800 text-center text-sm">
